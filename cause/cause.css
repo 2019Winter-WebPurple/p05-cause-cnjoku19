@@ -1,0 +1,123 @@
+/*
+* Chioma Njoku
+* May 20, 2019
+* End Homelessness Project
+*/
+
+/* The universal selector */
+
+* {
+    margin: 0;
+    padding:0;
+}
+
+/* Body properties here */
+
+
+header {
+
+text-align: center;
+margin: auto;
+background-color: #08708a;
+}
+
+
+body {
+    margin: auto;
+    background-color: #dae9e4;
+    width: 85%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* the style and format of the headings */
+  h1 {  text-align: center;
+        font-size: 250%;
+        border-bottom: solid black;
+        padding: .5em;
+        margin: .5em 0;
+        color: ghostwhite;
+        font-family: Arial, Helvetica, sans-serif;
+      
+    }
+
+ h2 {
+    padding: .5em;
+    margin: .5em 0;
+    font-size: 125%;
+    color: #08708a;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+main {
+    font-size: 130%;
+        
+}
+
+/* This indents the lists */
+ul, li {
+    list-style-position: inside;
+}
+
+
+/* the size of the pictures are adjusted */
+#walking {
+    float: left; 
+    border:  5px dashed #d73a31;
+    margin: 10px;
+    height: 250px;
+    width: 260px;
+
+}
+
+#alone {
+    float: left;
+    border: 5px solid #56b1bf;
+    margin: 10px;
+    height: 250px;
+    width: 260px;
+    
+}
+
+#help {
+    float: left;
+    border: 5px solid #56b1bf;
+    margin: 10px;
+    height: 250px;
+    width: 260px;
+    
+}
+
+#vets {
+    float: left;
+    border: 5px solid #56b1bf;
+    margin: 10px;
+    height: 250px;
+    width: 260px;
+    
+}
+
+#face {
+    float: left;
+    border: 5px solid #56b1bf;
+    margin: 10px;
+    height: 250px;
+    width: 260px;
+    
+}
+
+#hands {
+    float: right;
+    border: 5px dashed #d73a31;
+    margin: 10px;
+    height: 250px;
+    width: 260px;
+    
+}
+
+
+footer {
+    border-top: 2px solid black;
+    clear: both;
+    
+}
